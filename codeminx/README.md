@@ -1,28 +1,33 @@
-# Fine-Tuning with Unsloth 🚀
+<h1 align="center">LLM Fine-Tuning with Unsloth</h1>
 
-This repository contains a Jupyter Notebook demonstrating how to fine-tune Large Language Models (LLMs) using **[Unsloth](https://github.com/unslothai/unsloth)**.  
-The notebook walks through setup, training, and evaluation of models with LoRA and other techniques.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PyTorch-2.x-ee4c2c?logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/Unsloth-Latest-8B5CF6?logo=python&logoColor=white" alt="Unsloth">
+  <img src="https://img.shields.io/badge/HuggingFace-Transformers-FFD21E?logo=huggingface&logoColor=black" alt="HuggingFace">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white" alt="Jupyter">
+</p>
+
+<p align="center">Efficient fine-tuning of Large Language Models using the Unsloth framework with LoRA adapters.</p>
 
 ---
 
-## 📂 Project Structure
+## Overview
 
----
+This notebook demonstrates how to fine-tune LLMs with Unsloth — a framework optimized for memory-efficient training with LoRA (Low-Rank Adaptation).
 
-## ⚙️ Features
-- Fine-tuning LLMs with **Unsloth**
-- LoRA (Low-Rank Adaptation) integration
-- Efficient training setup for limited compute
-- Huggingface Integration
-- Quantization with Lora (Qlora)
+## Features
+
+- Fine-tune LLMs with **Unsloth**
+- **LoRA** integration for parameter-efficient training
+- Optimized for limited compute resources
+- Hugging Face ecosystem integration
+- Quantization with bitsandbytes
 - Step-by-step Jupyter workflow
 
----
+## Requirements
 
-## 📋 Requirements
 - Python 3.10+
-- Jupyter Notebook
 - PyTorch
 - Unsloth library
-
-
+- Jupyter Notebook
