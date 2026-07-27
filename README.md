@@ -1,14 +1,18 @@
-# ML-projects
+<h1 align="center">ML-projects</h1>
 
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://python.org)
-[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)](https://jupyter.org)
-[![PyTorch](https://img.shields.io/badge/PyTorch-1.10%2B-ee4c2c?logo=pytorch&logoColor=white)](https://pytorch.org)
-[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white)](https://tensorflow.org)
-[![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-Latest-F7931E?logo=scikit-learn&logoColor=white)](https://scikit-learn.org)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-[![GitHub Stars](https://img.shields.io/github/stars/danishnaseer00/ML-projects?style=social)](https://github.com/danishnaseer00/ML-projects)
+<p align="center">
+  <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python"></a>
+  <a href="https://jupyter.org"><img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white" alt="Jupyter"></a>
+  <a href="https://pytorch.org"><img src="https://img.shields.io/badge/PyTorch-1.10%2B-ee4c2c?logo=pytorch&logoColor=white" alt="PyTorch"></a>
+  <a href="https://tensorflow.org"><img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow"></a>
+  <a href="https://scikit-learn.org"><img src="https://img.shields.io/badge/Scikit--Learn-Latest-F7931E?logo=scikit-learn&logoColor=white" alt="Scikit-Learn"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License"></a>
+  <a href="https://github.com/danishnaseer00/ML-projects"><img src="https://img.shields.io/github/stars/danishnaseer00/ML-projects?style=social" alt="Stars"></a>
+</p>
 
-A curated collection of machine learning and deep learning projects covering supervised learning, neural networks, computer vision, NLP, and MLOps fundamentals. Each project is implemented as a self-contained Jupyter notebook with detailed walkthroughs, visualizations, and production-ready code.
+<p align="center">
+  A curated collection of machine learning and deep learning projects covering supervised learning, neural networks, computer vision, NLP, and MLOps fundamentals. Each project is a self-contained Jupyter notebook with detailed walkthroughs, visualizations, and production-ready code.
+</p>
 
 ---
 
@@ -71,7 +75,7 @@ ML-projects/
 ├── Stacked-lSTMs-for-Text-Generation/     # NLP — BiLSTM text generation
 ├── Image-Classification-with-Data-Augmentation-CNN-/  # CV — CNN with augmentation
 ├── Credit-Card-Fraud-Detection-using-ANN-/   # Anomaly — Fraud detection
-├── Fine-Tuning-Hyperparameters-for-NN/    # Optuna-style hyperparameter search
+├── Fine-Tuning-Hyperparameters-for-NN/    # Hyperparameter search
 ├── Multiple-LR-Using-Stochastic-Gradient-Descent/  # ML from scratch
 ├── Pytorch-Learnings/                      # PyTorch fundamentals
 ├── codeminx/                               # LLM fine-tuning with Unsloth
@@ -100,6 +104,8 @@ This repository is available under the [MIT License](LICENSE).
 
 ## Connect
 
-**[Danish Naseer](https://danishnaseer.tech)**  
-AI Engineer building agentic systems | DevOps (Docker, AWS, K8s)  
-[GitHub](https://github.com/danishnaseer00) · [LinkedIn](https://linkedin.com/in/danishnaseer) · [Twitter/X](https://twitter.com/thedanishNaseer)
+<p align="center">
+  <b><a href="https://danishnaseer.tech">Danish Naseer</a></b><br>
+  AI Engineer building agentic systems | DevOps (Docker, AWS, K8s)<br>
+  <a href="https://github.com/danishnaseer00">GitHub</a> · <a href="https://linkedin.com/in/danishnaseer">LinkedIn</a> · <a href="https://twitter.com/thedanishNaseer">Twitter/X</a>
+</p>
