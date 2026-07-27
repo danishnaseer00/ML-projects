@@ -1,54 +1,33 @@
-# 🔧 Hyperparameter Tuning for Neural Networks
+<h1 align="center">Hyperparameter Tuning for Neural Networks</h1>
 
-This repository contains a Jupyter Notebook focused on exploring hyperparameter tuning techniques for improving the performance of neural networks. It utilizes `Keras` and `TensorFlow`, along with tuning tools to find optimal configurations for building and training deep learning models.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/Keras_Latest-D00000?logo=keras&logoColor=white" alt="Keras">
+  <img src="https://img.shields.io/badge/KerasTuner-✔-success?logo=keras&logoColor=white" alt="KerasTuner">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white" alt="Jupyter">
+</p>
 
-## 📘 Overview
+<p align="center">Systematic hyperparameter search strategies to optimize neural network performance using Keras Tuner.</p>
 
-Hyperparameter tuning is a crucial step in developing robust and high-performing deep learning models. In this notebook, we:
+---
 
-- Build a baseline neural network model using Keras
-- Tune model architecture and training parameters using **Keras Tuner**
-- Evaluate performance using validation accuracy
-- Visualize results to analyze the impact of different hyperparameter combinations
+## Overview
 
-## 📁 Files
+Hyperparameter tuning is critical for building robust, high-performing deep learning models. This notebook walks through:
 
-- `Hyperparameter_Tuning_for_NN.ipynb`: Main notebook demonstrating the full workflow for hyperparameter tuning.
+- Building a baseline neural network with Keras
+- Tuning architecture and training parameters using **Keras Tuner**
+- Evaluating performance with validation accuracy
+- Visualizing the impact of different hyperparameter combinations
 
-## 🧪 Technologies Used
+## Files
 
-- Python 3.x  
-- TensorFlow / Keras  
-- KerasTuner  
-- NumPy  
-- Matplotlib  
+- `Hyperparameter_Tuning_for_NN.ipynb` — Full tuning workflow notebook
 
-## 🚀 Getting Started
+## Technologies
 
-### Prerequisites
-
-Install required Python packages:
-
-
-pip install tensorflow keras keras-tuner matplotlib
-Running the Notebook
-Clone the repository:
-
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-Launch Jupyter Notebook:
-
-
-🤝 Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change or improve.
-
-📜 License
-This project is open-source and available under the MIT License.
-
-
-
-
-
-
-
-
+- Python 3.x
+- TensorFlow / Keras
+- Keras Tuner
+- NumPy, Matplotlib
