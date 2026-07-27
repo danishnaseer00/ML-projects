@@ -1,56 +1,30 @@
-# Credit Card Fraud Detection Model
+<h1 align="center">Credit Card Fraud Detection using ANN</h1>
 
-This repository contains a machine learning model designed to detect fraudulent credit card transactions using an Artificial Neural Network (ANN) with SMOTE (Synthetic Minority Oversampling Technique) to handle class imbalance. The model is implemented in a Google Colab notebook and leverages the Kaggle "Creditcardfraud" dataset.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/Keras-Latest-D00000?logo=keras&logoColor=white" alt="Keras">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white" alt="Jupyter">
+</p>
+
+<p align="center">Fraudulent transaction detection using an Artificial Neural Network with SMOTE oversampling on the Kaggle Credit Card Fraud dataset.</p>
+
+---
 
 ## Overview
-- **Dataset**: Kaggle "Creditcardfraud" dataset with 284,807 transactions, including 492 frauds and 284,315 non-frauds.
-- **Features**: 31 columns (Time, V1–V28, Amount, Class).
-- **Approach**: Uses SMOTE for oversampling the minority class and an ANN for classification.
-- **Environment**: Python 3 in Google Colab.
 
-## Installation
-1. Clone the repository
-   git clone <repository-url>
-
-Install dependencies:
-bashpip install pandas numpy matplotlib scikit-learn tensorflow
-
-Set up Kaggle API:
-
-Upload kaggle.json with your API credentials.
-Run the notebook cells to download and unzip the dataset.
-
-
-
-## Usage
-
-Open Credit_Card_Fraud_Detection (2).ipynb in Google Colab or Jupyter Notebook.
-Execute cells to load data, preprocess, train the model, and evaluate performance.
-Adjust the threshold using the provided precision_recall_curve code for optimized results.
+- **Dataset**: Kaggle "Creditcardfraud" — 284,807 transactions (492 fraud, 284,315 non-fraud)
+- **Approach**: ANN with SMOTE (Synthetic Minority Oversampling) to handle class imbalance
+- **Features**: 31 columns (Time, V1–V28, Amount, Class)
 
 ## Performance
 
-Initial Metrics:
+**Before threshold tuning:** Accuracy 99%, Recall 0.92, Precision 0.18, F1 0.30
 
-Accuracy: 99%
-Fraud Recall: 0.92
-Fraud Precision: 0.18
-Fraud F1-Score: 0.30
+**After threshold tuning:** Precision 0.87, Recall 0.76, F1 0.81
 
+## Key Takeaways
 
-## Optimized Metrics (with threshold adjustment):
-
-Fraud Precision: 0.87
-Fraud Recall: 0.76
-Fraud F1-Score: 0.81
-
-
-## Observations:
-Overfitting detected; validation loss stabilizes after epoch 3, mitigated by early stopping.
-
-## Improvements
-
-Add regularization (e.g., Dropout, L2) to reduce overfitting.
-Tune the threshold further for better precision-recall balance.
-Implement cross-validation for robustness.
-
+- Overfitting detected; validation loss stabilizes after epoch 3 with early stopping
+- Threshold tuning dramatically improved precision-recall balance
+- Further improvements: regularization (Dropout, L2), cross-validation
