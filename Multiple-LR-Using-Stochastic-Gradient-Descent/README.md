@@ -1,51 +1,38 @@
-# 📊 Multiple Linear Regression from Scratch  
-### Using Normal Equation & Stochastic Gradient Descent (SGD)
+<h1 align="center">Multiple Linear Regression from Scratch</h1>
 
-This project demonstrates how to implement **Multiple Linear Regression** from scratch using both the **Normal Equation** and **Stochastic Gradient Descent (SGD)**, without relying on high-level machine learning libraries like scikit-learn for the core algorithm.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/NumPy-Latest-013243?logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Matplotlib-Latest-11557c?logo=python&logoColor=white" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white" alt="Jupyter">
+</p>
 
----
-
-## 📁 Project Structure
-
-.
-├── Multiple_Linear_regression_From_Scratch_Using_Normal_Equation_&_Stochastic_Gradient_Descent.ipynb
-└── README.md
+<p align="center">Multiple Linear Regression implemented from scratch using the Normal Equation and Stochastic Gradient Descent — without scikit-learn.</p>
 
 ---
 
-## 🚀 Features
+## Overview
 
-- ✅ Implementation of **Multiple Linear Regression** without `sklearn`
-- ✅ Support for **Normal Equation Method**
-- ✅ Support for **Stochastic Gradient Descent (SGD)**
-- ✅ Uses **NumPy** and **Matplotlib** for computation and visualization
-- ✅ Clear step-by-step markdown explanations
+This project builds Multiple Linear Regression from the ground up using only NumPy, demonstrating a deep understanding of the underlying mathematics.
 
----
+## Features
 
-## 🛠️ Libraries Used
+- Pure NumPy implementation (no sklearn for core algorithm)
+- Normal Equation method for closed-form solution
+- Stochastic Gradient Descent (SGD) for iterative optimization
+- Matplotlib visualizations of regression results
+- Step-by-step markdown explanations throughout
 
-- `numpy` – for numerical operations  
-- `matplotlib` – for plotting graphs  
-- `random` – for stochastic behavior in SGD  
-- `sklearn` (optional) – only used for verification/comparison (not core implementation)
+## Files
 
----
+- `Multiple_Linear_regression_From_Scratch_Using_Normal_Equation_&_Stochastic_Gradient_Descent.ipynb` — Main notebook
+- `README.md` — This file
 
-## ▶️ Running the Notebook
+## Libraries
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-Navigate to the project folder: 
-
-cd your-repo-name
-Launch the notebook:
-
-
-jupyter notebook
-Open the .ipynb file and run all cells.
-
-✍️ Author
-Danish
-Feel free to connect or fork this notebook for your own experimentation!
+| Library | Purpose |
+|---------|---------|
+| `numpy` | Numerical operations and linear algebra |
+| `matplotlib` | Plotting regression results |
+| `random` | Stochastic behavior in SGD |
+| `sklearn` | Verification/comparison only (not core implementation) |
