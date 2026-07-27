@@ -1,62 +1,38 @@
-# 🐱🐶 Cat vs Dog Image Classification with Data Augmentation
+<h1 align="center">Cat vs Dog Image Classification with Data Augmentation</h1>
 
-A deep learning project built using TensorFlow and Keras to classify images of cats and dogs. This project demonstrates the use of **ImageDataGenerator**, **data augmentation**, and **convolutional neural networks (CNNs)**. Trained and evaluated on the popular `PetImages` dataset.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/TensorFlow-2.x-FF6F00?logo=tensorflow&logoColor=white" alt="TensorFlow">
+  <img src="https://img.shields.io/badge/Keras-Latest-D00000?logo=keras&logoColor=white" alt="Keras">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white" alt="Jupyter">
+</p>
+
+<p align="center">CNN-based image classification with data augmentation to classify cats and dogs using the PetImages dataset.</p>
 
 ---
 
-## 📁 Dataset
+## Dataset
 
-**Source**: [Kaggle - Dog and Cat Classification Dataset](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
+- **Source**: [Kaggle - Dog and Cat Classification Dataset](https://www.kaggle.com/datasets/bhavikjikadara/dog-and-cat-classification-dataset)
+- **Structure**: PetImages/ → Cat/ + Dog/ (includes corrupted images removed via cleaning script)
 
-**Structure**:
-
-cat_dog_dataset/
-└── PetImages/
-├── Cat/
-└── Dog/
-
-
-> Note: The dataset contains some corrupt images. A cleaning script is included to remove them before training.
->
-> 
-
-## 🧠 Model Architecture
+## Model Architecture
 
 - Input shape: `(64, 64, 3)`
-- 2 × Convolutional layers + MaxPooling
-- Flatten layer
-- Dense (ReLU)
-- Output layer (Sigmoid for binary classification)
+- 2x Convolutional layers + MaxPooling
+- Flatten → Dense (ReLU) → Output (Sigmoid)
 
----
+## Training Details
 
-## 🧪 Training Details
-
-- **Data Augmentation** used:
-  - Rotation
-  - Zoom
-  - Horizontal Flip
-- **Train-Validation Split**: 80/20
+- **Data Augmentation**: Rotation, Zoom, Horizontal Flip
+- **Train/Val Split**: 80/20
 - **Optimizer**: Adam
 - **Loss**: Binary Crossentropy
-- **Metrics**: Accuracy
 - **Epochs**: 5 (adjustable)
 - **Batch Size**: 32
 
----
+## Results
 
-## 📈 Results
-
-Achieved ~90% accuracy after 5–10 epochs
-
-Effective data augmentation improved generalization
-
-Faster training using target_size=(64, 64) and GPU runtime
-
-## ✅ Future Improvements
-
-Use transfer learning (e.g., MobileNetV2 or EfficientNet)
-Deploy model via Streamlit or Flask
-Add confusion matrix & classification report
-Hyperparameter tuning
-
+- ~90% accuracy after 5–10 epochs
+- Data augmentation significantly improved generalization
+- Faster training with target_size=(64, 64) and GPU runtime
