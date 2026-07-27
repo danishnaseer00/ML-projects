@@ -1,41 +1,30 @@
-## 📊 Data Visualization with Matplotlib
+<h1 align="center">Data Visualization with Matplotlib</h1>
 
-This repository contains a beginner-friendly Jupyter Notebook demonstrating the use of Matplotlib for creating various types of plots in Python. It is intended to help new data scientists, analysts, and Python enthusiasts learn how to visualize data effectively using Matplotlib's powerful plotting capabilities.
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.7%2B-blue?logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/Matplotlib-Latest-11557c?logo=python&logoColor=white" alt="Matplotlib">
+  <img src="https://img.shields.io/badge/NumPy-Latest-013243?logo=numpy&logoColor=white" alt="NumPy">
+  <img src="https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white" alt="Jupyter">
+</p>
 
-### 📁 Project Structure
+<p align="center">A beginner-friendly Jupyter Notebook demonstrating Matplotlib for creating various Python plots and visualizations.</p>
 
-matplotlib.ipynb — A Jupyter Notebook showcasing how to:
+---
 
-Set up Matplotlib and basic plotting.
+## Overview
 
-Customize line charts, bar charts, and scatter plots.
+This notebook covers essential data visualization techniques using Matplotlib, aimed at data scientists, analysts, and Python enthusiasts.
 
-Label axes, set titles, and add legends.
+## Visualizations Covered
 
-Adjust plot styles and figure sizes.
+- **Line plots** — Track trends over time
+- **Bar charts** — Categorical comparisons
+- **Scatter plots** — Relationship analysis
+- **Customization** — Labels, titles, legends, figure sizing, plot styles
 
+## Getting Started
 
-### 📷 Sample Visualizations
-
-
-The notebook walks through generating visuals such as:
-
-Line plots to track trends.
-
-Bar charts for categorical comparisons.
-
-Scatter plots to show relationships.
-
-### 🛠️ Getting Started
-
-Prerequisites
-
-    Ensure you have the following installed:
-    Python 3.7+
-    Jupyter Notebook or JupyterLab
-    matplotlib library
-
-You can install required packages with:
-
-   - pip install matplotlib
-   - pip install numpy
+```bash
+pip install matplotlib numpy jupyter
+jupyter notebook matplotlib.ipynb
+```
